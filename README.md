@@ -1,244 +1,78 @@
 # 📊 Real-Time E-Commerce Revenue Intelligence System
 
-![Power BI](https://img.shields.io/badge/PowerBI-Analytics-yellow)
-![Excel](https://img.shields.io/badge/Data-Excel-green)
-![DAX](https://img.shields.io/badge/Language-DAX-blue)
-![Status](https://img.shields.io/badge/Project-Completed-success)
+[![Power BI](https://img.shields.io/badge/PowerBI-Analytics-yellow.svg)](https://powerbi.microsoft.com/)
+[![Excel](https://img.shields.io/badge/Data-Excel-green.svg)](https://microsoft.com/excel)
+[![DAX](https://img.shields.io/badge/DAX-Advanced-blue.svg)](https://learn.microsoft.com/en-us/dax/)
+[![Status](https://img.shields.io/badge/Project-Completed-success.svg)]()
 
-> Production-style Business Intelligence system built using Power BI to transform raw e-commerce transactional data into executive-level revenue insights.
+<p align="center">
+  <img src="./dashboard_demo.gif" width="900">
+</p>
+
+> **Production-grade Business Intelligence system for e-commerce revenue analytics** built using Microsoft Power BI with advanced DAX modeling, interactive filtering, and executive-level KPI monitoring.
 
 ---
 
 ## 🎯 Why This Project Matters
 
-E-commerce businesses generate large volumes of transactional data.  
-Without structured analytics, decision-makers lack visibility into:
+This isn't just another dashboard — it's a **complete revenue intelligence system** designed to solve real business decision-making challenges:
 
-- Revenue concentration
-- Market performance
-- Category contribution
-- Shipping cost impact
-- Profit optimization opportunities
-
-This project builds a centralized, interactive dashboard to address those challenges using data modeling and DAX-driven KPI evaluation.
+- 📈 **Business Impact**: Centralized visibility into 12.64M+ revenue performance
+- ⚡ **Interactive Analytics**: Dynamic slicing across markets, categories, and regions
+- 🌍 **Multi-Market Intelligence**: 7 global markets analyzed
+- 🚚 **Operational Insights**: Shipping cost impact on profitability
+- 📊 **Executive Ready**: KPI-driven design for leadership decisions
 
 ---
 
-## 📊 Live System Metrics
+# 📊 Live System Metrics
+- 💰 Total Sales: 12.64M
+- 📈 Total Profit: 1.47M
+- 📦 Quantity Sold: 178K
+- 🚚 Shipping Cost: 1.35M
+- 🌍 Markets Covered: 7
+- 🛒 Product Categories: 3
 
-- 💰 **Total Sales:** 12.64M  
-- 📈 **Total Profit:** 1.47M  
-- 📦 **Total Quantity Sold:** 178K  
-- 🚚 **Total Shipping Cost:** 1.35M  
-- 🌍 **Markets Covered:** 7  
-- 🛒 **Product Categories:** 3  
+## 🛠 Technology Stack
+# 📊 Business Intelligence
 
----
+- Microsoft Power BI – Interactive Dashboard Development
 
-## 🖥 Dashboard Preview
+- DAX (Data Analysis Expressions) – Advanced KPI calculations
 
+- Power Query – Data transformation & modeling
+
+# 📂 Data Processing
+
+- Microsoft Excel – Raw transactional dataset
+
+- Data Cleaning & Structuring
+
+- Relationship Modeling (Star Schema Inspired)
+
+# 📈 Visualization Components
+
+- KPI Cards
+
+- Donut Charts
+
+- Tree Maps
+
+- Bar Charts
+
+
+# 🏗 System Architecture
 <p align="center">
-  <img src="./dashboard_preview.gif" width="950">
+
+ <img width="296" height="435" alt="image" src="https://github.com/user-attachments/assets/529a0c56-64fe-41e0-a81a-f966d444e448" />
 </p>
 
----
+# 🛒 Category Performance
 
-## 🚀 Quick Setup
+- Technology
 
-### Clone the Repository
+- Furniture
 
-```bash
-git clone https://github.com/gunasai12/Power_BI_Project.git
-cd Power_BI_Project
-Run the Dashboard
-Open E Commere Report.pbix in Microsoft Power BI Desktop
+- Office Supplies
 
-Reconnect to ECOMM DATA.xlsx if prompted
-
-Explore interactive visuals and filters
-
-📈 Dashboard Capabilities
-Executive KPI Monitoring
-Total Sales
-
-Total Profit
-
-Total Quantity
-
-Shipping Cost
-
-Geographic Intelligence
-Sales by Country
-
-Sales by State
-
-Revenue concentration visualization
-
-Category Analytics
-Technology
-
-Furniture
-
-Office Supplies
-
-Comparative revenue performance
-
-Market Segmentation
-APAC
-
-EU
-
-US
-
-LATAM
-
-EMEA
-
-Africa
-
-Canada
-
-Shipping Performance Analysis
-Standard Class
-
-Second Class
-
-First Class
-
-Same Day
-
-Shipping cost impact tracking
-
-Interactive Features
-Category slicer
-
-Sub-category slicer
-
-Dynamic filtering across visuals
-
-🧠 Data Architecture
-Data Source
-ECOMM DATA.xlsx
-
-Data Model Design
-Central Sales Fact Table
-
-Supporting Dimension Tables:
-
-Country
-
-Market
-
-Category
-
-Ship Mode
-
-Model optimized for:
-
-Accurate aggregations
-
-Efficient filtering
-
-Scalable reporting
-
-📐 Core DAX Implementation
-Total Sales = SUM('ECOMM DATA'[Sales])
-Total Profit = SUM('ECOMM DATA'[Profit])
-Total Quantity = SUM('ECOMM DATA'[Quantity])
-Total Shipping Cost = SUM('ECOMM DATA'[Shipping Cost])
-Additional analytical calculations include:
-
-Country revenue contribution %
-
-Market share analysis
-
-Category comparison metrics
-
-Profit vs shipping cost evaluation
-
-🛠 Technology Stack
-Business Intelligence
-Microsoft Power BI
-
-DAX (Data Analysis Expressions)
-
-Data Processing
-Microsoft Excel
-
-Data Cleaning & Structuring
-
-Visualization Components
-KPI Cards
-
-Donut Charts
-
-Tree Maps
-
-Bar Charts
-
-Interactive Slicers
-
-📦 Repository Structure
-Power_BI_Project/
-│
-├── E Commere Report.pbix
-├── ECOMM DATA.xlsx
-├── dashboard_preview.gif
-├── dashboard_preview.png
-└── README.md
-💼 Business Value Delivered
-This dashboard enables:
-
-Executive revenue monitoring
-
-Market performance benchmarking
-
-Category profitability evaluation
-
-Shipping efficiency tracking
-
-Data-driven strategic decision-making
-
-🔮 Future Enhancements
-Time-series revenue trend analysis
-
-Year-over-Year growth comparison
-
-Profit margin forecasting
-
-Power BI Service deployment with scheduled refresh
-
-Row-Level Security implementation
-
-Advanced DAX performance modeling
-
-📌 Resume-Ready Impact Points
-Designed and developed an executive-level Power BI dashboard analyzing 12.6M+ revenue data
-
-Implemented DAX-based KPI tracking and market share analytics
-
-Structured a clean BI data model for optimized performance
-
-Delivered actionable insights across geography, category, and logistics
-
-Transformed raw Excel data into a scalable business intelligence solution
-
-👨‍💻 Author
-Anumulapally Gunasai
-B.Tech Final Year Student
-Aspiring Data Analyst | AI & ML Engineer
-
-Focused on building scalable data-driven systems that convert raw data into strategic intelligence.
-
-
----
-
-This is fully GitHub-ready.
-
-If you don’t yet have `dashboard_preview.gif`, replace this line:
-
-```html
-<img src="./dashboard_preview.gif" width="950">
-with:
-
-<img src="./dashboard_preview.png" width="950">
+- Comparative revenue evaluation
