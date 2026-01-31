@@ -1,81 +1,89 @@
-📊 E-Commerce Sales Intelligence Dashboard
-Power BI Business Analytics Project
+# 📊 Real-Time E-Commerce Revenue Intelligence System
 
+![Power BI](https://img.shields.io/badge/PowerBI-Analytics-yellow)
+![Excel](https://img.shields.io/badge/Data-Excel-green)
+![DAX](https://img.shields.io/badge/Language-DAX-blue)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
-🚀 Project Overview
+> Production-style Business Intelligence system built using Power BI to transform raw e-commerce transactional data into executive-level revenue insights.
 
-This project presents a fully interactive E-Commerce Sales Analysis Dashboard built using Microsoft Power BI.
+---
 
-The goal of this project was to transform raw transactional data into meaningful business insights using structured data modeling, DAX calculations, and executive-level dashboard design.
+## 🎯 Why This Project Matters
 
-This project demonstrates my ability to:
+E-commerce businesses generate large volumes of transactional data.  
+Without structured analytics, decision-makers lack visibility into:
 
-Perform end-to-end Business Intelligence workflow
+- Revenue concentration
+- Market performance
+- Category contribution
+- Shipping cost impact
+- Profit optimization opportunities
 
-Design interactive dashboards for decision-making
+This project builds a centralized, interactive dashboard to address those challenges using data modeling and DAX-driven KPI evaluation.
 
-Create calculated measures using DAX
+---
 
-Implement optimized data modeling
+## 📊 Live System Metrics
 
-Translate business requirements into analytical solutions
+- 💰 **Total Sales:** 12.64M  
+- 📈 **Total Profit:** 1.47M  
+- 📦 **Total Quantity Sold:** 178K  
+- 🚚 **Total Shipping Cost:** 1.35M  
+- 🌍 **Markets Covered:** 7  
+- 🛒 **Product Categories:** 3  
 
-📁 Repository Structure
-File Name	Description
-E Commere Report.pbix	Complete Power BI dashboard file including data model, DAX measures, and visualizations
-ECOMM DATA.xlsx	Raw dataset used as the primary data source for analysis
-dashboard_preview.png	Exported dashboard screenshot for repository preview
-📸 Dashboard Preview
-<img width="1327" height="735" alt="image" src="https://github.com/user-attachments/assets/4e6a0c92-805e-4d37-aa1a-52b9606ff3d5" />
+---
 
-Executive-level dashboard summarizing revenue, profit, category performance, regional sales, and shipping impact.
+## 🖥 Dashboard Preview
 
-📊 Key Performance Indicators (KPIs)
+<p align="center">
+  <img src="./dashboard_preview.gif" width="950">
+</p>
 
-Total Sales: 12.64M
+---
 
-Total Profit: 1.47M
+## 🚀 Quick Setup
 
-Total Quantity Sold: 178K
+### Clone the Repository
 
-Total Shipping Cost: 1.35M
+```bash
+git clone https://github.com/gunasai12/Power_BI_Project.git
+cd Power_BI_Project
+Run the Dashboard
+Open E Commere Report.pbix in Microsoft Power BI Desktop
 
-These KPIs provide a high-level snapshot of overall business performance.
+Reconnect to ECOMM DATA.xlsx if prompted
 
-📈 Dashboard Components
-🔹 1. Sales by Country
+Explore interactive visuals and filters
 
-Visualizes revenue contribution from:
+📈 Dashboard Capabilities
+Executive KPI Monitoring
+Total Sales
 
-United States
+Total Profit
 
-Australia
+Total Quantity
 
-France
+Shipping Cost
 
-Used to identify dominant markets and global revenue distribution.
+Geographic Intelligence
+Sales by Country
 
-🔹 2. Sales by State
+Sales by State
 
-Tree map representation showing state-level revenue contribution.
-Helps detect regional performance concentration.
+Revenue concentration visualization
 
-🔹 3. Sales by Category
-
-Compares performance across:
-
+Category Analytics
 Technology
 
 Furniture
 
 Office Supplies
 
-Technology emerged as the highest revenue-generating category.
+Comparative revenue performance
 
-🔹 4. Sales by Market
-
-Market segmentation including:
-
+Market Segmentation
 APAC
 
 EU
@@ -90,12 +98,7 @@ Africa
 
 Canada
 
-Enables cross-market performance comparison.
-
-🔹 5. Sales by Ship Mode
-
-Shipping class performance:
-
+Shipping Performance Analysis
 Standard Class
 
 Second Class
@@ -104,125 +107,138 @@ First Class
 
 Same Day
 
-Standard Class contributes the highest sales volume.
+Shipping cost impact tracking
 
-🔹 6. Interactive Filters
+Interactive Features
+Category slicer
 
-Category filter
+Sub-category slicer
 
-Sub-category filter
+Dynamic filtering across visuals
 
-These slicers allow dynamic and real-time data exploration.
+🧠 Data Architecture
+Data Source
+ECOMM DATA.xlsx
 
-🧠 Data Modeling Approach
+Data Model Design
+Central Sales Fact Table
 
-The data model follows a structured analytical approach:
-
-Central sales transaction table
-
-Supporting dimensions:
-
-Category
+Supporting Dimension Tables:
 
 Country
 
 Market
 
+Category
+
 Ship Mode
 
-Relationships were defined to ensure:
+Model optimized for:
 
 Accurate aggregations
 
-Optimized performance
+Efficient filtering
 
-Clean reporting structure
+Scalable reporting
 
-📐 DAX Measures Implemented
-
-Core measures created using DAX:
-
+📐 Core DAX Implementation
 Total Sales = SUM('ECOMM DATA'[Sales])
-
 Total Profit = SUM('ECOMM DATA'[Profit])
-
 Total Quantity = SUM('ECOMM DATA'[Quantity])
-
 Total Shipping Cost = SUM('ECOMM DATA'[Shipping Cost])
+Additional analytical calculations include:
 
+Country revenue contribution %
 
-Additional calculations:
-
-Percentage contribution by country
-
-Market share distribution
+Market share analysis
 
 Category comparison metrics
 
-📊 Key Business Insights
+Profit vs shipping cost evaluation
 
-Technology is the top-performing product category.
-
-The United States contributes the largest share of total revenue.
-
-Standard Class shipping dominates operational volume.
-
-Shipping costs significantly impact profit margins.
-
-APAC and EU markets demonstrate strong competitive presence.
-
-🛠 Tools & Technologies
-
+🛠 Technology Stack
+Business Intelligence
 Microsoft Power BI
-
-Microsoft Excel
 
 DAX (Data Analysis Expressions)
 
-Data Modeling
+Data Processing
+Microsoft Excel
 
-Interactive Dashboard Design
+Data Cleaning & Structuring
 
-🎯 Business Value
+Visualization Components
+KPI Cards
 
+Donut Charts
+
+Tree Maps
+
+Bar Charts
+
+Interactive Slicers
+
+📦 Repository Structure
+Power_BI_Project/
+│
+├── E Commere Report.pbix
+├── ECOMM DATA.xlsx
+├── dashboard_preview.gif
+├── dashboard_preview.png
+└── README.md
+💼 Business Value Delivered
 This dashboard enables:
 
-Executive-level revenue monitoring
+Executive revenue monitoring
 
-Category performance evaluation
+Market performance benchmarking
 
-Geographic revenue tracking
+Category profitability evaluation
 
-Shipping cost optimization analysis
+Shipping efficiency tracking
 
 Data-driven strategic decision-making
 
-🧩 How to Use
+🔮 Future Enhancements
+Time-series revenue trend analysis
 
-Clone or download this repository.
+Year-over-Year growth comparison
 
-Open E Commere Report.pbix in Power BI Desktop.
+Profit margin forecasting
 
-If prompted, reconnect the dataset to ECOMM DATA.xlsx.
+Power BI Service deployment with scheduled refresh
 
-Explore interactive filters and visual insights.
+Row-Level Security implementation
 
-📌 Resume-Ready Project Highlights
+Advanced DAX performance modeling
 
-You can directly use these in your resume:
+📌 Resume-Ready Impact Points
+Designed and developed an executive-level Power BI dashboard analyzing 12.6M+ revenue data
 
-Built an interactive Power BI dashboard analyzing 12.6M+ sales data.
+Implemented DAX-based KPI tracking and market share analytics
 
-Designed KPI-based executive reporting with dynamic filters.
+Structured a clean BI data model for optimized performance
 
-Implemented DAX measures for revenue, profit, and market share analysis.
+Delivered actionable insights across geography, category, and logistics
 
-Applied structured data modeling for optimized performance.
-
-Delivered actionable insights across categories, regions, and shipping modes.
+Transformed raw Excel data into a scalable business intelligence solution
 
 👨‍💻 Author
-
 Anumulapally Gunasai
 B.Tech Final Year Student
-Aspiring Data Analyst | AI & ML Enthusiast
+Aspiring Data Analyst | AI & ML Engineer
+
+Focused on building scalable data-driven systems that convert raw data into strategic intelligence.
+
+
+---
+
+This is fully GitHub-ready.
+
+If you don’t yet have `dashboard_preview.gif`, replace this line:
+
+```html
+<img src="./dashboard_preview.gif" width="950">
+with:
+
+<img src="./dashboard_preview.png" width="950">
